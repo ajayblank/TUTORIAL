@@ -70,7 +70,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: 172.66.0.157
+  servername: sgdo-vvip.tomketstore.xyz
   network: ws
   ws-opts:
     path: /vmess
