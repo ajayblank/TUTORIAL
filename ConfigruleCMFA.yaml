@@ -36,35 +36,6 @@ proxies:
   server: 104.26.7.171
   port: 80
   type: vmess
-  uuid: fe845514-036d-4956-9413-1dbe30f008d1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: vmess-sg01.gproxy.gratis
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: vmess-sg01.gproxy.gratis
-  udp: true
-- name: AKUN2
-  server: 104.26.7.171
-  port: 443
-  type: trojan
-  password: 041bd9df-5d31-4d6b-9095-bd35e483350c
-  skip-cert-verify: true
-  sni: tro-sg01.gproxy.gratis
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: tro-sg01.gproxy.gratis
-  udp: true
-- name: AKUN3
-  server: 104.26.7.171
-  port: 80
-  type: vmess
   uuid: 0020e98d-41a0-4706-bfeb-fa3f95eeb844
   alterId: 0
   cipher: auto
@@ -76,6 +47,38 @@ proxies:
     path: /vmess
     headers:
       Host: sgdo-vvip.tomketstore.xyz
+  udp: true
+- name: AKUN2
+  server: 104.26.7.171
+  port: 80
+  type: vmess
+  uuid: da935520-8076-4ed4-a884-7cdd2126f433
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: id1-ray.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /JAGOANSSH/
+    headers:
+      Host: id1-ray.ipservers.xyz
+  udp: true
+- name: AKUN3
+  server: 104.26.7.171
+  port: 80
+  type: vmess
+  uuid: fe845514-036d-4956-9413-1dbe30f008d1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: vmess-sg01.gproxy.gratis
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: vmess-sg01.gproxy.gratis
   udp: true
 
 proxy-groups:
