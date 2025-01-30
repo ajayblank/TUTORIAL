@@ -52,17 +52,17 @@ proxies:
   server: 104.26.7.171
   port: 80
   type: vmess
-  uuid: da935520-8076-4ed4-a884-7cdd2126f433
+  uuid: 48a88ee9-3d75-4c5e-a69d-4ced64d7e255
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: id1-ray.ipservers.xyz
+  servername: idray.serverssh.us.kg
   network: ws
   ws-opts:
-    path: /JAGOANSSH/
+    path: /serverssh.net
     headers:
-      Host: id1-ray.ipservers.xyz
+      Host: idray.serverssh.us.kg
   udp: true
 - name: AKUN3
   server: 104.26.7.171
