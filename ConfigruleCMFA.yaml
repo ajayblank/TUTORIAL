@@ -36,17 +36,17 @@ proxies:
   server: 104.26.7.171
   port: 80
   type: vmess
-  uuid: 0020e98d-41a0-4706-bfeb-fa3f95eeb844
+  uuid: a013547f-8fea-472c-99bb-5676a788dddd
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: sgdo-vvip.tomketstore.xyz
+  servername: sgm1ray.serverssh.us.kg
   network: ws
   ws-opts:
-    path: /vmess
+    path: /serverssh.net
     headers:
-      Host: sgdo-vvip.tomketstore.xyz
+      Host: sgm1ray.serverssh.us.kg
   udp: true
 - name: AKUN2
   server: 104.26.7.171
