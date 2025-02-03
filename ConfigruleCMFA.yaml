@@ -35,17 +35,18 @@ proxies:
 - name: AKUN1
   server: 104.26.7.171
   port: 80
-  type: vless
-  uuid: c43751b9-7d88-4c27-93f9-1e1558594b57
+  type: vmess
+  uuid: a013547f-8fea-472c-99bb-5676a788dddd
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vless-sg01.gproxy.gratis
+  servername: sgm1ray.serverssh.us.kg
   network: ws
   ws-opts:
-    path: /vless-ws
+    path: /serverssh.net
     headers:
-      Host: vless-sg01.gproxy.gratis
+      Host: sgm1ray.serverssh.us.kg
   udp: true
 - name: AKUN2
   server: 104.26.7.171
