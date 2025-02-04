@@ -36,17 +36,17 @@ proxies:
   server: 104.26.7.171
   port: 80
   type: vmess
-  uuid: a013547f-8fea-472c-99bb-5676a788dddd
+  uuid: 1e960e27-77da-4018-bb5e-b827155114a7
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: sgm1ray.serverssh.us.kg
+  servername: vmess-sg01.gproxy.gratis
   network: ws
   ws-opts:
-    path: /serverssh.net
+    path: /vmess-ws
     headers:
-      Host: sgm1ray.serverssh.us.kg
+      Host: vmess-sg01.gproxy.gratis
   udp: true
 - name: AKUN2
   server: 104.26.7.171
@@ -67,18 +67,17 @@ proxies:
 - name: AKUN3
   server: 104.26.7.171
   port: 80
-  type: vmess
-  uuid: fe845514-036d-4956-9413-1dbe30f008d1
-  alterId: 0
+  type: vless
+  uuid: eb09fbe9-7652-4693-b2d5-bc8e436c998d
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vmess-sg01.gproxy.gratis
+  servername: vless-us01.gproxy.gratis
   network: ws
   ws-opts:
-    path: /vmess-ws
+    path: /vless-ws
     headers:
-      Host: vmess-sg01.gproxy.gratis
+      Host: vless-us01.gproxy.gratis
   udp: true
 
 proxy-groups:
