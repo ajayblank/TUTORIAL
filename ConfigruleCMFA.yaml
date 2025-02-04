@@ -63,7 +63,6 @@ proxies:
     headers:
       Host: idwc.ftvpn.my.id
   udp: true
-  udp: true
 - name: AKUN3
   server: 104.26.7.171
   port: 80
