@@ -51,33 +51,34 @@ proxies:
 - name: AKUN2
   server: 104.26.7.171
   port: 80
-  type: vmess
-  uuid: 48a88ee9-3d75-4c5e-a69d-4ced64d7e255
-  alterId: 0
+  type: vless
+  uuid: 16ed81da-1c8b-4bf7-a58b-8f8515a00684
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: idray.serverssh.us.kg
+  servername: idwc.ftvpn.my.id
   network: ws
   ws-opts:
-    path: /serverssh.net
+    path: /whatever/vless
     headers:
-      Host: idray.serverssh.us.kg
+      Host: idwc.ftvpn.my.id
+  udp: true
   udp: true
 - name: AKUN3
   server: 104.26.7.171
   port: 80
-  type: vless
-  uuid: eb09fbe9-7652-4693-b2d5-bc8e436c998d
+  type: vmess
+  uuid: db8210bc-7ba2-4508-bff7-c31e69975bb5
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  servername: vless-us01.gproxy.gratis
+  servername: jarmilah.cfbaik.cloud
   network: ws
   ws-opts:
-    path: /vless-ws
+    path: /vmess
     headers:
-      Host: vless-us01.gproxy.gratis
+      Host: jarmilah.cfbaik.cloud
   udp: true
 
 proxy-groups:
